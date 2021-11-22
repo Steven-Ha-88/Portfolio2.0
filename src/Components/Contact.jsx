@@ -26,8 +26,7 @@ const Contact = () => {
           <div className="contact-info">
             <h2>Let's talk?</h2>
             <p className="contact-body">
-              I'm open to working on projects or collaborating with people, I'd
-              love to hear your ideas and work with you.
+              Please feel free to message me via contact form or email.
             </p>
             <div className="social">
               <a
