@@ -1,3 +1,3 @@
 # Portfolio website
 
-[Visit portfolio](www.stevenha.co.uk)
+[Visit portfolio](https://stevenha.co.uk)
