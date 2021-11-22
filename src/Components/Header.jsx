@@ -4,6 +4,7 @@ import Button from "./Button";
 import logo from "../assets/logo.png";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
+import CV from "./../assets/CV2021_v3.pdf"
 
 const Header = () => {
   return (
@@ -95,7 +96,7 @@ const Header = () => {
                 borderColor="#c2c2c2"
                 shadowColor="#c2c2c2"
                 textColor="#c2c2c2"
-                href="https://github.com/mandeepdebnath/portfolio/blob/main/src/Resume/resume.pdf"
+                href={CV}
                 target="_blank"
                 rel="noreferrer"
               >

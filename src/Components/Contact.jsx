@@ -30,7 +30,7 @@ const Contact = () => {
             </p>
             <div className="social">
               <a
-                href="mailto:mandeepdebnath@gmail.com"
+                href="mailto:steven.dev@outlook.com"
                 target="_blank"
                 rel="noreferrer"
                 className="hover-animation"
