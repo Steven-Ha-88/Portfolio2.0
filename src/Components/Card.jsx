@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import Button from "./Button";
 
+
 const Card = (props) => {
   const { tags = [] } = props;
   return (
-    <>
+    <div >
       <Cardstyled>
         <img src={props.image} alt="" />
         <Content>
@@ -40,7 +41,7 @@ const Card = (props) => {
           </Buttons>
         </Content>
       </Cardstyled>
-    </>
+    </div>
   );
 };
 
