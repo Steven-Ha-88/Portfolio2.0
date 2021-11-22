@@ -1,0 +1,129 @@
+.contact-section {
+  background: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 3px solid #839ef6;
+}
+
+form {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 #000;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+textarea {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #839ef6;
+  background: transparent;
+  color: #f1f7ee;
+}
+
+.message {
+  margin: 15px 0;
+}
+.message p {
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  resize: none;
+  font-family: "Poppins";
+}
+
+form button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  background: #222222;
+  border: #839ef6 solid 3px;
+  color: #f1f7ee;
+  box-shadow: 2px 2px 0 0 #839ef6;
+  cursor: pointer;
+  transition: all 0.22s ease-in-out;
+}
+form button:hover {
+  box-shadow: 5px 5px 0 0 #839ef6c;
+}
+
+.wrapper {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+}
+
+.contact-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-body {
+  color: #c2c2c2;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #f1f7ee;
+  overflow: hidden;
+}
+
+.hover-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: #839ef6;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media (max-width: 800px) {
+  .contact-section {
+    padding: 15px;
+  }
+  .wrapper {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+}

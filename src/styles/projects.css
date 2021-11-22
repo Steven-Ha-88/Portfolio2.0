@@ -1,0 +1,27 @@
+.projects {
+  background: #1f1f1f;
+  padding: 50px 100px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 3px solid #839ef6;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    padding: 50px 30px;
+  }
+}
+@media (max-width: 420px) {
+  .projects {
+    padding: 50px 20px;
+  }
+}
