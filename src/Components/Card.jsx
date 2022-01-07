@@ -8,7 +8,7 @@ const Card = (props) => {
   return (
     <div >
       <Cardstyled>
-        <img src={props.image} alt="" />
+          <img src={props.image} alt="" />
         <Content>
           <h2>{props.title}</h2>
           <Tags>
@@ -59,6 +59,7 @@ export const Cardstyled = styled.div`
   img {
     object-fit: contain;
     width: 60%;
+    height: fit-content;
     image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
@@ -117,3 +118,4 @@ export const Buttons = styled.div`
   display: flex;
   gap: 20px;
 `;
+

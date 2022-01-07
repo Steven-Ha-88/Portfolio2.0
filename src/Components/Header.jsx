@@ -69,7 +69,7 @@ const Header = () => {
             <div className="content-body">
               <p>
                 A versitile front end developer implementing web and mobile applications.
-                Passionate about UI / motion design and programming.
+                Passionate about UI / UX and programming.
                 Technologies I use include 
                 <span className="lang">React</span>{" "}
                 <span className="lang">TypeScript</span> and{" "}
