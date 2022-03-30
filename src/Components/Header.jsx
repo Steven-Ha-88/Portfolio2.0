@@ -4,7 +4,7 @@ import Button from "./Button";
 import logo from "../assets/logo.png";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
-import CV from "./../assets/CV2021_v3.pdf"
+import CV from "./../Resume/CV2022.pdf";
 
 const Header = () => {
   return (
